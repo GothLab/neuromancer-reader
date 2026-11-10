@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101316">
+  <meta name="description" content="An offline reader for Neuromancer">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <title>Neuromancer · Reader</title>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Chapters">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">N</div><div><strong>Neuromancer</strong><span>William Gibson</span></div></div>
+      <div class="sidebar-heading"><span>Contents</span><button id="close-menu" class="icon-button mobile-only" aria-label="Close chapters">×</button></div>
+      <nav id="chapters" aria-label="Table of contents"></nav>
+      <div class="sidebar-bottom"><div class="progress-label"><span>Your progress</span><strong id="overall-percent">0%</strong></div><div class="progress-track"><div id="overall-progress"></div></div><small>Saved on this device</small></div>
+    </aside>
+    <div id="scrim" class="scrim" hidden></div>
+    <div class="main-column">
+      <header class="topbar">
+        <button id="open-menu" class="icon-button mobile-only" aria-label="Open chapters">☰</button>
+        <div class="topbar-title"><span class="eyebrow">THE SPRAWL TRILOGY · BOOK ONE</span><span id="top-chapter">Chapter 1</span></div>
+        <div class="topbar-actions"><button id="mode-button" class="text-button mode-button" aria-label="Switch reading mode">◐ <span id="mode-label">Dark</span></button><button id="settings-button" class="text-button" aria-haspopup="dialog" aria-controls="settings">Aa <span class="desktop-label">Display</span></button><button id="install-button" class="text-button" hidden>Install</button></div>
+      </header>
+      <div id="reader-scroll" class="reader-scroll">
+        <main id="reader" class="reader" tabindex="-1">
+          <div class="chapter-kicker" id="part-label"></div>
+          <h1 id="chapter-title"></h1>
+          <p id="chapter-subtitle" class="chapter-subtitle"></p>
+          <div class="ornament" aria-hidden="true"><span></span>✦<span></span></div>
+          <article id="chapter-body" aria-label="Chapter text"></article>
+          <div class="chapter-end"><span>END OF CHAPTER</span><button id="next-chapter" class="next-button">Next chapter <span aria-hidden="true">→</span></button></div>
+        </main>
+      </div>
+      <footer class="bottombar"><button id="previous-button" aria-label="Previous chapter">← <span>Previous</span></button><div class="chapter-progress"><span id="chapter-progress-label">0% of chapter</span><div class="chapter-progress-track"><div id="chapter-progress-bar"></div></div></div><button id="footer-next" aria-label="Next chapter"><span>Next chapter</span> →</button></footer>
+    </div>
+  </div>
+  <dialog id="settings" class="settings"><form method="dialog"><div class="dialog-head"><h2>Reading display</h2><button class="icon-button" aria-label="Close settings">×</button></div><div class="mode-choice" role="group" aria-label="Reading mode"><button type="button" data-mode-choice="dark">Dark</button><button type="button" data-mode-choice="light">Light</button><button type="button" data-mode-choice="eink">E-ink</button></div><label for="font-size">Text size <output id="font-size-value">18px</output></label><input id="font-size" type="range" min="15" max="24" value="18"><label for="line-width">Line width <output id="line-width-value">680px</output></label><input id="line-width" type="range" min="520" max="840" step="20" value="680"><p>Your display choices and reading position stay on this device.</p></form></dialog>
+  <dialog id="footnote-dialog" class="settings footnote-dialog"><form method="dialog"><div class="dialog-head"><h2 id="footnote-title">Note</h2><button class="icon-button" aria-label="Close note">×</button></div><p id="footnote-text"></p></form></dialog>
+  <script src="app.js?v=3" defer></script>
+</body>
+</html>

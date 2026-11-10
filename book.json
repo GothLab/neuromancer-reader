@@ -1,0 +1,194 @@
+{
+  "title": "Neuromancer",
+  "author": "William Gibson",
+  "chapters": [
+    {
+      "number": 1,
+      "part": "Part One",
+      "partName": "Chiba City Blues",
+      "file": "chapters/01.html",
+      "paragraphs": 221
+    },
+    {
+      "number": 2,
+      "part": "Part One",
+      "partName": "Chiba City Blues",
+      "file": "chapters/02.html",
+      "paragraphs": 166
+    },
+    {
+      "number": 3,
+      "part": "Part Two",
+      "partName": "The Shopping Expedition",
+      "file": "chapters/03.html",
+      "paragraphs": 119
+    },
+    {
+      "number": 4,
+      "part": "Part Two",
+      "partName": "The Shopping Expedition",
+      "file": "chapters/04.html",
+      "paragraphs": 133
+    },
+    {
+      "number": 5,
+      "part": "Part Two",
+      "partName": "The Shopping Expedition",
+      "file": "chapters/05.html",
+      "paragraphs": 85
+    },
+    {
+      "number": 6,
+      "part": "Part Two",
+      "partName": "The Shopping Expedition",
+      "file": "chapters/06.html",
+      "paragraphs": 47
+    },
+    {
+      "number": 7,
+      "part": "Part Two",
+      "partName": "The Shopping Expedition",
+      "file": "chapters/07.html",
+      "paragraphs": 136
+    },
+    {
+      "number": 8,
+      "part": "Part Three",
+      "partName": "Midnight In The Rue Jules Verne",
+      "file": "chapters/08.html",
+      "paragraphs": 137
+    },
+    {
+      "number": 9,
+      "part": "Part Three",
+      "partName": "Midnight In The Rue Jules Verne",
+      "file": "chapters/09.html",
+      "paragraphs": 125
+    },
+    {
+      "number": 10,
+      "part": "Part Three",
+      "partName": "Midnight In The Rue Jules Verne",
+      "file": "chapters/10.html",
+      "paragraphs": 157
+    },
+    {
+      "number": 11,
+      "part": "Part Three",
+      "partName": "Midnight In The Rue Jules Verne",
+      "file": "chapters/11.html",
+      "paragraphs": 165
+    },
+    {
+      "number": 12,
+      "part": "Part Three",
+      "partName": "Midnight In The Rue Jules Verne",
+      "file": "chapters/12.html",
+      "paragraphs": 54
+    },
+    {
+      "number": 13,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/13.html",
+      "paragraphs": 54
+    },
+    {
+      "number": 14,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/14.html",
+      "paragraphs": 121
+    },
+    {
+      "number": 15,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/15.html",
+      "paragraphs": 92
+    },
+    {
+      "number": 16,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/16.html",
+      "paragraphs": 147
+    },
+    {
+      "number": 17,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/17.html",
+      "paragraphs": 78
+    },
+    {
+      "number": 18,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/18.html",
+      "paragraphs": 118
+    },
+    {
+      "number": 19,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/19.html",
+      "paragraphs": 60
+    },
+    {
+      "number": 20,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/20.html",
+      "paragraphs": 91
+    },
+    {
+      "number": 21,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/21.html",
+      "paragraphs": 51
+    },
+    {
+      "number": 22,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/22.html",
+      "paragraphs": 90
+    },
+    {
+      "number": 23,
+      "part": "Part Four",
+      "partName": "The Straylight Run",
+      "file": "chapters/23.html",
+      "paragraphs": 108
+    },
+    {
+      "number": 24,
+      "part": "Coda",
+      "partName": "Departure And Arrival",
+      "file": "chapters/24.html",
+      "paragraphs": 51
+    }
+  ],
+  "footnotes": {
+    "1": "Cities growing into other cities, where no center is recognizible.",
+    "2": "Cheap miniaturised hotel rooms in Japan.",
+    "3": "Soft synthetic filling material.",
+    "4": "Heart of Night City, Tokyo.",
+    "5": "Nerve toxin.",
+    "6": "Huge, self-contained cities enclosed in a single building with a built environment, imagined by Paolo Soleri; neologism from ecologie & architecture.",
+    "7": "Dexedrine, a form of amphetamine.",
+    "8": "Drug.",
+    "9": "Chinese cigarettes.",
+    "10": "Player/Recordes of the whole sensorium of a person. Similiar to technology in Huxley's 'Brave New World' and Philip K. Dick's novels. In the Sprawl series future it is as popular as television is today, there is all kinds of different programs, people get addicted from simstim. It can also be broadcasted live through a broadcast rig.",
+    "11": "Flechette pistol, arrow spitting pistol with paralysing or poisoning function.",
+    "12": "Original term for Japan's family-corporations before WWII, which are now known as 'keiretsu'. In the Sprawl world the term describes multinational corporations.",
+    "13": "Dome structure developed by Buckminster Fuller, a philosopher, mathematician, engineer, historian and poet, in the 1940ies and 50ies which is recognized to be the most energy-efficient building system.",
+    "14": "Skin interfaces for cyberspace consoles.",
+    "15": "A small chip which can be inserted into a socket behind the ear and allows certain skills, for example flying a plane, fluency in languages etc.",
+    "16": "International police which monitors the intelligence levels of AIs. Named after Alan Turing, a pioneer theoretician of machine intelligence, who said that a computer being able to conversate with a human for a certain time would be intelligent.",
+    "17": "Eletromagnetic pulse weapons that send a strong electromagnetic burst which destroys the circuits in electronical equipment and renders it useless.",
+    "18": "Wiz/whiz Drug, crystal form."
+  }
+}
